@@ -31,14 +31,41 @@ function managerPrompt() {
       },
     ])
     .then((data) => {
-      const manager = new Manager(
-        data.name,
-        data.id,
-        data.email,
-        data.office
-      );
+      const manager = new Manager(data.name, data.id, data.email, data.office);
       myTeam.push(manager);
       secondInput();
     });
 }
 
+function secondInput() {
+  inquirer
+    .prompt([
+      {
+        type: "list",
+        name: "prompt",
+        message: "What would you like to do next?",
+        choices: [
+          "Add an Employee",
+          "Add an Intern",
+          "Add an Engineer",
+          "Write File",
+        ],
+      },
+    ])
+    .then((answers) => {
+      switch (answers.prompt) {
+        case "Add an Employee":
+          addEmployee();
+          break;
+        case "Add an Intern":
+          addIntern();
+          break;
+        case "Add an Engineer":
+          addEngineer();
+          break;
+        case "Write File":
+          writeFile();
+          break;
+      }
+    });
+}
