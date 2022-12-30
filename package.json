@@ -1,8 +1,7 @@
 {
   "dependencies": {
     "eslint": "^8.30.0",
-    "inquirer": "^8.2.4",
-    "jest": "^29.3.1"
+    "inquirer": "^8.2.4"
   },
   "name": "team-profile-generator",
   "description": "none",
@@ -12,7 +11,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node index.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/devgomez1/team-profile-generator/issues"
   },
-  "homepage": "https://github.com/devgomez1/team-profile-generator#readme"
+  "homepage": "https://github.com/devgomez1/team-profile-generator#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
