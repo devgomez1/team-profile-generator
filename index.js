@@ -113,7 +113,7 @@ function addEngineer() {
       },
       {
         type: "input",
-        name: "school",
+        name: "github",
         message: "What is the Engineers github?",
       },
     ])
