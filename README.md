@@ -36,7 +36,7 @@ After cloning the code one will need to install npm, inquirer, Jest. Then simply
 
 Example of the deployed HTML file. 
 
-![example](C:\Users\Devin Gomez\Desktop\bootcamp-assignments\images\Screenshot 2023-01-02 172450.png)
+![example](./images/Screenshot%202023-01-02%20172450.png)
 
 
 ## Links 
