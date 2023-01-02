@@ -2,9 +2,9 @@
 
 ## Description
 
-```
+
 This Challenge saw for me to write a command line application that takes user input about a team of employees and generates an HTML webpage that displays information for each person. For this challenge one must install Inquirer and Jest (to run your tests).
-```
+
 
 ## Acceptance Critera 
 
